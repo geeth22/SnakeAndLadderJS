@@ -7,7 +7,7 @@ const NO_PLAY = 0 ;
 const LADDER = 2 ;
 const SNAKE = 1 ;
 
-function checkOption(){
+function play(){
     currentPosition = STARTING_POSITION ;
     while(currentPosition < ENDING_POSITION){
         var dice = Math.floor( Math.random() * 6 ) + 1 ;
