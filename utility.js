@@ -1,3 +1,4 @@
+//Variable
 let current_position = 0;
 
 const STARTING_POSITION = 0;
