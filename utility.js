@@ -1,5 +1,6 @@
 //Variable
 let current_position = 0;
+let Dice_Count = 0;
 
 const STARTING_POSITION = 0;
 const ENDING_POSITION = 100;
@@ -32,6 +33,8 @@ function play(){
                 break;
         }
         console.log("current position: " + currentPosition);
+	Dice_Count++;
     }
+	console.log("number of times dice rolled: " + Dice_Count);
 }
 module.exports = { play };
