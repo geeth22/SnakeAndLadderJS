@@ -1,3 +1,3 @@
 let utility = require("./Utility");
 
-Utility.RollDice();
+Utility.checkOption();
