@@ -34,4 +34,4 @@ function play(){
         console.log("current position: " + currentPosition);
     }
 }
-module.exports = { checkOption };
+module.exports = { play };
